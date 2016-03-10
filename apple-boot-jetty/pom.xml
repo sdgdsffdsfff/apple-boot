@@ -6,7 +6,7 @@
 	<parent>
 		<artifactId>apple-boot</artifactId>
 		<groupId>com.appleframework.boot</groupId>
-		<version>0.1.6.RELEASE</version>
+		<version>0.2.3.RELEASE</version>
 	</parent>
 	<artifactId>apple-boot-jetty</artifactId>
 	<name>apple-boot-jetty</name>
@@ -39,14 +39,17 @@
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-server</artifactId>
+			<version>${jetty.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-webapp</artifactId>
+			<version>${jetty.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-util</artifactId>
+			<version>${jetty.version}</version>
 		</dependency>
 
 		<dependency>
